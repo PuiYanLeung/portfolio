@@ -232,7 +232,7 @@ p {
 /* hero Section*/
 
 #hero {
-  background-image: url(/img/IMG_3969b.JPG);
+  background-image: url("../img/IMG_3969b.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -334,7 +334,7 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(/img/img-1.png);
+  background-image: url("../img/img-1.png");
   background-size: cover;
   margin: 10px 5%;
   position: relative;
