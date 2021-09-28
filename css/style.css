@@ -13,9 +13,18 @@ html {
 }
 a {
   text-decoration: none;
+  color:rgb(225, 230, 153);
+  font-weight: bolder;
+}
+.hero_container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -437,6 +446,10 @@ p {
 #projects .project-item:hover .project-img img {
   transform: scale(1.1);
 }
+#projects .project-item:hover .project-img::after {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
 
 /*EndProject section*/
 /*About me*/
@@ -445,7 +458,8 @@ p {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 0px 20px;
+  margin-bottom: 70px;
 }
 #about .col-left {
   width: 250px;
