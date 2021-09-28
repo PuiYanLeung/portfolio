@@ -483,6 +483,10 @@ p {
   padding: 10px 20px;
   font-size: 2rem;
 }
+#about .col-right img {
+  width: 48px;
+  flex-direction: row;
+}
 #about .col-left .about-img {
   height: 100%;
   width: 100%;
@@ -547,10 +551,10 @@ p {
 }
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, rgb(90,39,129) 0%, rgb(90,43,141) 100%);
+  background-color: rgba(72,31,103);
 }
 #footer .footer {
-  min-height: 200px;
+  min-height: 150px;
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
